@@ -1,9 +1,7 @@
+import IndexRouter from "./router/indexRouter";
+import './App.css'
 const App = () => {
-    return ( 
-        <div>
-            
-        </div>
-     );
+    return  <IndexRouter></IndexRouter>
 }
  
 export default App;
