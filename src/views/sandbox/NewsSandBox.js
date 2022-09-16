@@ -1,6 +1,7 @@
 import { Layout } from "antd";
 import SideMenu from "../../components/sandbox/SideMenu";
 import TopHeader from "../../components/sandbox/TopHeader";
+import NewsRouter from "../../components/sandbox/NewsRouter";
 import './NewsSandBox.css'
 const {Content} =Layout
 const NewsSandBox = () => {
@@ -18,7 +19,7 @@ const NewsSandBox = () => {
               overflow:'auto'
             }}
           >
-            content
+            <NewsRouter />
             </Content>
             </Layout>
         </Layout>

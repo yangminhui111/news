@@ -45,6 +45,7 @@ function getItem(label, key, icon, children, type) {
   let child = [];
   if (children?.length) {
     children.forEach(item => {
+      // 判断权限是否在侧边栏中显示
       if (item.pagepermisson) {
         child.push(getItem(item.title, item.key, iconList[item.key]))
       }
